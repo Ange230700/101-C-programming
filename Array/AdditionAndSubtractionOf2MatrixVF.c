@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main()
 /*
 Ce programme permet de faire l'addition ou
@@ -13,7 +12,7 @@ la soustraction de 2 matrices nXn où n est la dimension.
     On pourrait optimiser le code en considérant une dimension (constante).
     Ce sera pour la prochaine mise à jour du code.
     */
-    
+
     printf("Enter the number of rows and columns of these matrix (de dimension 5 maximum).\n");
     printf("\tLe nombre de lignes :\t");
     scanf("%d", &NombreDeLignes);
@@ -56,7 +55,6 @@ la soustraction de 2 matrices nXn où n est la dimension.
         printf("\n");
     }
 
-
     for (NumeroDeLigne = 0; NumeroDeLigne < NombreDeLignes; NumeroDeLigne++)
     {
         for (NumeroDeColonne = 0; NumeroDeColonne < NombreDeColonnes; NumeroDeColonne++)
@@ -67,7 +65,7 @@ la soustraction de 2 matrices nXn où n est la dimension.
             */
         }
     }
-    
+
     printf("Sum of entered matrices:\n");
     /*
     On fait l'affiche de la somme obtenue.
@@ -84,7 +82,6 @@ la soustraction de 2 matrices nXn où n est la dimension.
     }
     printf("\n");
 
-
     for (NumeroDeLigne = 0; NumeroDeLigne < NombreDeLignes; NumeroDeLigne++)
     {
         for (NumeroDeColonne = 0; NumeroDeColonne < NombreDeColonnes; NumeroDeColonne++)
@@ -95,7 +92,7 @@ la soustraction de 2 matrices nXn où n est la dimension.
             */
         }
     }
-    
+
     printf("Difference between entered matrices:\n");
     /*
     On fait l'affiche du résultat obtenu.
